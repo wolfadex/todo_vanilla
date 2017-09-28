@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.todo-list {
+  background: red;
+}
+.todo-list__item--completed {
+  text-decoration: line-through;
+}
+i {
+  cursor: pointer;
+}
